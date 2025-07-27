@@ -33,3 +33,4 @@ output/
 *.pptx
 !Trading_Bot_Final.pptx
 !Trading_Bot_Presentation.pptx
+.env
