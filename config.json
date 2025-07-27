@@ -1,0 +1,465 @@
+{
+  "bot_data": {
+    "name": "Bybit Trading Bot",
+    "description": "Automatischer Telegram-Signal Bot für Bybit Exchange",
+    "version": "2.1.0",
+    "referral_code": "9EEDV9",
+    "website": "https://www.yourtradingbot.com",
+    "telegram": "@YourTradingBot",
+    "email": "info@yourtradingbot.com",
+    "weekly_stats": {
+      "period": "17.07-22.07",
+      "trades": 59,
+      "winrate": 84.7,
+      "roi": 31.690,
+      "total_volume": 125000.00,
+      "avg_trade_size": 2118.64,
+      "best_day": "+12.5%",
+      "worst_day": "-2.1%"
+    },
+    "monthly_stats": {
+      "trades": 237,
+      "winrate": 82.3,
+      "roi": 127.45,
+      "sharpe_ratio": 2.14,
+      "max_drawdown": -8.3,
+      "profit_factor": 3.21
+    },
+    "top_performers": [
+      {
+        "coin": "EPIC",
+        "roi": 5261.0,
+        "entry_price": 0.000123,
+        "exit_price": 0.006594,
+        "date": "2024-07-19",
+        "hold_time": "4h 23m"
+      },
+      {
+        "coin": "FLOKI",
+        "roi": 1453.0,
+        "entry_price": 0.000187,
+        "exit_price": 0.002906,
+        "date": "2024-07-20",
+        "hold_time": "2h 15m"
+      },
+      {
+        "coin": "HBAR",
+        "roi": 1403.0,
+        "entry_price": 0.0523,
+        "exit_price": 0.7862,
+        "date": "2024-07-18",
+        "hold_time": "6h 41m"
+      },
+      {
+        "coin": "ZORA",
+        "roi": 1538.61,
+        "entry_price": 0.001245,
+        "exit_price": 0.020396,
+        "date": "2024-07-21",
+        "hold_time": "3h 17m"
+      },
+      {
+        "coin": "TAO",
+        "roi": 132.91,
+        "entry_price": 285.67,
+        "exit_price": 665.21,
+        "date": "2024-07-17",
+        "hold_time": "1h 52m"
+      }
+    ],
+    "example_trades": [
+      {
+        "coin": "COOK",
+        "roi": 142.92,
+        "entry_price": 0.0845,
+        "exit_price": 0.2053,
+        "status": "win",
+        "signal_source": "VIP Signals",
+        "execution_time": "< 5 seconds"
+      },
+      {
+        "coin": "LTC",
+        "roi": 159.0,
+        "entry_price": 87.23,
+        "exit_price": 225.87,
+        "status": "win",
+        "signal_source": "Technical Analysis Bot",
+        "execution_time": "< 3 seconds"
+      },
+      {
+        "coin": "BTC",
+        "roi": 23.45,
+        "entry_price": 42150.00,
+        "exit_price": 52042.50,
+        "status": "win",
+        "signal_source": "Whale Alerts",
+        "execution_time": "< 2 seconds"
+      },
+      {
+        "coin": "ETH",
+        "roi": -12.3,
+        "entry_price": 2547.80,
+        "exit_price": 2234.12,
+        "status": "loss",
+        "signal_source": "Market Maker Signals",
+        "execution_time": "< 4 seconds"
+      }
+    ],
+    "signal_sources": [
+      {
+        "name": "VIP Crypto Signals",
+        "success_rate": 89.2,
+        "avg_roi": 67.8,
+        "subscription_cost": "$299/month",
+        "trades_per_day": 8
+      },
+      {
+        "name": "Technical Analysis Bot",
+        "success_rate": 78.5,
+        "avg_roi": 45.3,
+        "subscription_cost": "$199/month",
+        "trades_per_day": 12
+      },
+      {
+        "name": "Whale Movement Tracker",
+        "success_rate": 82.1,
+        "avg_roi": 56.7,
+        "subscription_cost": "$399/month",
+        "trades_per_day": 5
+      }
+    ],
+    "features": [
+      "Automatisches Signal-Kopieren aus Telegram",
+      "Instant-Ausführung auf Bybit Exchange",
+      "24/7 Betrieb ohne manuellen Eingriff",
+      "Intelligentes Risk-Management",
+      "Stop-Loss und Take-Profit Automation",
+      "Multi-Signal-Source Integration",
+      "Real-time Performance Monitoring",
+      "Detaillierte Trade-Dokumentation",
+      "Mobile App Benachrichtigungen",
+      "API-Integration für Custom Strategien"
+    ]
+  },
+  "presentation": {
+    "title": "🤖 Profitabler Trading Bot - Beweise & Statistiken",
+    "subtitle": "Automatische Gewinne durch Telegram-Signal Kopierung",
+    "language": "de",
+    "template": "crypto_professional",
+    "author": "Trading Bot Team",
+    "company": "Automated Trading Solutions",
+    "version": "3.1.0",
+    "include_charts": true,
+    "include_cta": true,
+    "include_testimonials": true,
+    "include_risk_warning": true,
+    "max_slides_per_trade": 1,
+    "max_total_slides": 25,
+    "slide_order": [
+      "title",
+      "overview",
+      "bot_features",
+      "statistics",
+      "top_performers",
+      "example_trades",
+      "performance_charts",
+      "roi_distribution",
+      "signal_sources",
+      "testimonials",
+      "pricing",
+      "risk_warning",
+      "cta",
+      "contact"
+    ],
+    "custom_slides": {
+      "bot_features": {
+        "enabled": true,
+        "title": "🔧 Bot Features & Vorteile",
+        "highlight_features": ["24/7 Automation", "Risk Management", "Multi-Source Signals"]
+      },
+      "testimonials": {
+        "enabled": true,
+        "title": "💬 Kundenstimmen",
+        "show_photos": false,
+        "max_testimonials": 4
+      },
+      "pricing": {
+        "enabled": true,
+        "title": "💰 Pricing & Packages",
+        "show_comparison": true,
+        "highlight_popular": "Premium"
+      }
+    },
+    "export_formats": ["pptx", "pdf", "html"],
+    "branding": {
+      "logo_path": "",
+      "primary_color": "#1A237E",
+      "secondary_color": "#3F51B5",
+      "accent_color": "#FFC107",
+      "watermark": "© 2024 Trading Bot Solutions"
+    }
+  },
+  "processing": {
+    "ocr_confidence": 0.7,
+    "auto_match_threshold": 0.8,
+    "backup_enabled": true,
+    "batch_size": 50,
+    "max_image_size_mb": 10,
+    "supported_formats": ["png", "jpg", "jpeg", "bmp", "tiff", "webp"],
+    "preprocessing": {
+      "enhance_contrast": true,
+      "denoise": true,
+      "sharpen": true,
+      "resize_factor": 2.0,
+      "auto_rotate": true,
+      "crop_borders": false
+    },
+    "ocr_languages": ["eng", "deu"],
+    "tesseract_config": "--oem 3 --psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.%+-$",
+    "parallel_processing": {
+      "enabled": true,
+      "max_workers": 4,
+      "chunk_size": 10
+    },
+    "error_handling": {
+      "retry_attempts": 3,
+      "timeout_seconds": 30,
+      "skip_corrupted": true,
+      "log_errors": true
+    }
+  },
+  "marketing": {
+    "target_audience": "crypto_traders",
+    "conversion_optimization": {
+      "urgency_phrases": [
+        "Limitiertes Angebot",
+        "Nur noch wenige Plätze verfügbar",
+        "Exklusiver Zugang",
+        "Jetzt handeln - später zahlen Sie mehr"
+      ],
+      "social_proof": [
+        "Über 500 zufriedene Kunden",
+        "Täglich neue Erfolgsgeschichten",
+        "Bewährtes System seit 2023",
+        "Vertraut von professionellen Tradern"
+      ],
+      "trust_signals": [
+        "30 Tage Geld-zurück-Garantie",
+        "Transparente Ergebnisse",
+        "Keine versteckten Kosten",
+        "24/7 Support verfügbar"
+      ]
+    },
+    "call_to_action": {
+      "primary": "🚀 Jetzt starten - Limitierte Plätze!",
+      "secondary": "📞 Kostenlose Beratung buchen",
+      "urgency": "⏰ Angebot endet in 48 Stunden",
+      "bonus": "🎁 Bonus: Erste Woche kostenlos testen"
+    },
+    "contact_info": {
+      "telegram": "@YourTradingBot",
+      "email": "start@yourtradingbot.com",
+      "phone": "+49 30 12345678",
+      "website": "www.yourtradingbot.com",
+      "support_hours": "Mo-Fr 9:00-18:00 CET"
+    },
+    "pricing_tiers": [
+      {
+        "name": "Starter",
+        "price": "€197/Monat",
+        "features": [
+          "1 Signal-Quelle",
+          "Bis zu 50 Trades/Monat",
+          "Basic Support",
+          "Mobile Benachrichtigungen"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Premium",
+        "price": "€397/Monat",
+        "features": [
+          "3 Signal-Quellen",
+          "Unlimited Trades",
+          "Priority Support",
+          "Advanced Analytics",
+          "Custom Risk Settings",
+          "Telegram Integration"
+        ],
+        "popular": true,
+        "savings": "€200 gespart vs. Einzelbuchung"
+      },
+      {
+        "name": "VIP",
+        "price": "€797/Monat",
+        "features": [
+          "Alle Premium Features",
+          "Exklusive VIP Signale",
+          "1-on-1 Setup Call",
+          "Custom Strategies",
+          "White-Label Option",
+          "Direct API Access"
+        ],
+        "popular": false,
+        "note": "Nur 20 Plätze verfügbar"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Marcus K.",
+        "location": "Berlin",
+        "text": "In 3 Wochen über €15.000 Gewinn gemacht. Der Bot läuft perfekt und die Signale sind präzise. Absolute Empfehlung!",
+        "rating": 5,
+        "profit": "+€15.247",
+        "timeframe": "3 Wochen"
+      },
+      {
+        "name": "Sarah M.",
+        "location": "München",
+        "text": "Endlich ein Bot der funktioniert! Transparente Ergebnisse und super Support. Mein Trading ist jetzt vollautomatisch.",
+        "rating": 5,
+        "profit": "+€8.932",
+        "timeframe": "1 Monat"
+      },
+      {
+        "name": "Thomas R.",
+        "location": "Hamburg",
+        "text": "Skeptisch war ich am Anfang schon, aber die Ergebnisse sprechen für sich. Klare Kaufempfehlung für jeden Trader.",
+        "rating": 5,
+        "profit": "+€23.156",
+        "timeframe": "6 Wochen"
+      },
+      {
+        "name": "Anna L.",
+        "location": "Köln",
+        "text": "24/7 Trading ohne Stress. Der Bot macht genau das was er soll und ich kann endlich wieder ruhig schlafen.",
+        "rating": 5,
+        "profit": "+€11.789",
+        "timeframe": "2 Monate"
+      }
+    ]
+  },
+  "advanced_features": {
+    "ai_enhancement": {
+      "enabled": true,
+      "auto_categorize_trades": true,
+      "smart_matching": true,
+      "performance_prediction": false,
+      "sentiment_analysis": false
+    },
+    "export_options": {
+      "include_metadata": true,
+      "compress_images": true,
+      "embed_fonts": true,
+      "pdf_quality": "high",
+      "html_responsive": true,
+      "watermark_opacity": 0.1
+    },
+    "security": {
+      "encrypt_backups": false,
+      "anonymize_data": false,
+      "secure_export": false,
+      "audit_log": true
+    },
+    "integrations": {
+      "telegram_bot": {
+        "enabled": false,
+        "bot_token": "",
+        "chat_id": "",
+        "send_reports": false
+      },
+      "email_reports": {
+        "enabled": false,
+        "smtp_server": "",
+        "smtp_port": 587,
+        "email": "",
+        "password": ""
+      },
+      "webhook": {
+        "enabled": false,
+        "url": "",
+        "secret": ""
+      }
+    }
+  },
+  "localization": {
+    "default_language": "de",
+    "supported_languages": ["de", "en"],
+    "currency_format": "€",
+    "date_format": "DD.MM.YYYY",
+    "number_format": "de-DE",
+    "translations": {
+      "de": {
+        "title_slide": "🤖 Profitabler Trading Bot",
+        "overview_slide": "📈 Trading Bot Übersicht",
+        "statistics_slide": "🏆 Top Performer & Statistiken",
+        "performance_slide": "📊 Performance Analyse",
+        "roi_slide": "💰 ROI Verteilung & Kategorien",
+        "cta_slide": "🚀 Bereit für automatische Gewinne?",
+        "contact_slide": "📞 Kontakt & Nächste Schritte",
+        "win": "Gewinn",
+        "loss": "Verlust",
+        "pending": "Ausstehend",
+        "roi": "ROI",
+        "trades": "Trades",
+        "winrate": "Erfolgsrate",
+        "referral_code": "Referral Code"
+      },
+      "en": {
+        "title_slide": "🤖 Profitable Trading Bot",
+        "overview_slide": "📈 Trading Bot Overview",
+        "statistics_slide": "🏆 Top Performers & Statistics",
+        "performance_slide": "📊 Performance Analysis",
+        "roi_slide": "💰 ROI Distribution & Categories",
+        "cta_slide": "🚀 Ready for Automated Profits?",
+        "contact_slide": "📞 Contact & Next Steps",
+        "win": "Win",
+        "loss": "Loss",
+        "pending": "Pending",
+        "roi": "ROI",
+        "trades": "Trades",
+        "winrate": "Win Rate",
+        "referral_code": "Referral Code"
+      }
+    }
+  },
+  "performance_tracking": {
+    "enabled": true,
+    "metrics": {
+      "processing_time": true,
+      "accuracy_score": true,
+      "user_satisfaction": false,
+      "error_rate": true
+    },
+    "benchmarks": {
+      "target_processing_time": 5.0,
+      "target_accuracy": 0.85,
+      "max_error_rate": 0.05
+    },
+    "reporting": {
+      "daily_summary": false,
+      "weekly_report": false,
+      "export_analytics": true
+    }
+  },
+  "system": {
+    "version": "1.0.0",
+    "last_updated": "2024-07-26",
+    "environment": "production",
+    "debug_mode": false,
+    "log_level": "INFO",
+    "max_log_files": 10,
+    "log_rotation_mb": 50,
+    "temp_directory": "./temp",
+    "output_directory": "./output",
+    "backup_directory": "./backups",
+    "cache_directory": "./cache",
+    "max_cache_size_mb": 500,
+    "auto_cleanup": {
+      "enabled": true,
+      "temp_files_days": 7,
+      "backup_files_days": 30,
+      "log_files_days": 14
+    }
+  }
+}

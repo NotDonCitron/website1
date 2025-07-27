@@ -1,0 +1,278 @@
+# Trading Bot Presentation Generator - Dependencies
+# Core Python packages for the automated PowerPoint generation system
+
+# GUI Framework - Built into Python
+# tkinter  # Built into Python, no separate installation needed
+
+# Image Processing & OCR
+opencv-python==4.8.1.78
+pytesseract==0.3.10
+Pillow==10.0.1
+numpy==1.24.3
+
+# PowerPoint & Presentation Generation
+python-pptx==0.6.21
+
+# PDF Generation (Optional)
+reportlab==4.0.4
+
+# Data Analysis & Charts
+matplotlib==3.7.2
+seaborn==0.12.2
+pandas==2.0.3
+
+# Web Scraping & HTTP (if needed)
+requests==2.31.0
+
+# JSON & Data Handling
+jsonschema==4.19.0
+
+# Logging & Configuration
+colorlog==6.7.0
+python-dotenv==1.0.0
+
+# Image Enhancement
+scikit-image==0.21.0
+imageio==2.31.1
+
+# Performance & Parallel Processing
+joblib==1.3.2
+concurrent-futures==3.1.1  # Built into Python 3.2+, but listed for clarity
+
+# Machine Learning (Optional - for advanced features)
+scikit-learn==1.3.0
+
+# Crypto/Trading Libraries (Optional)
+ccxt==4.0.77  # For exchange integrations if needed
+
+# Telegram Bot Integration (Optional)
+python-telegram-bot==20.5
+
+# Email Integration (Optional)
+smtplib==3.11  # Built into Python
+email-validator==2.0.0
+
+# File System Operations
+pathlib==1.0.1  # Built into Python 3.4+
+shutil==3.11  # Built into Python
+
+# Date & Time Handling
+python-dateutil==2.8.2
+
+# Hash & Security
+hashlib==3.11  # Built into Python
+cryptography==41.0.4  # For encryption features
+
+# Web Framework (for HTML export)
+jinja2==3.1.2
+markupsafe==2.1.3
+
+# Configuration Management
+configparser==5.3.0  # Built into Python
+yaml==6.0.1
+pyyaml==6.0.1
+
+# Development & Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+
+# Code Quality
+black==23.7.0
+flake8==6.0.0
+isort==5.12.0
+
+# Documentation
+sphinx==7.1.2  # If you want to generate docs
+
+# Additional Image Processing
+opencv-contrib-python==4.8.1.78  # Extended OpenCV features
+
+# Font Handling
+fonttools==4.42.1
+
+# Color Management
+colour==0.1.5
+
+# Progress Bars (for CLI)
+tqdm==4.66.1
+
+# System Information
+psutil==5.9.5
+
+# Backup & Archiving
+zipfile==3.11  # Built into Python
+tarfile==3.11  # Built into Python
+
+# Windows-specific (if running on Windows)
+pywin32==306  # For Windows-specific features
+
+# Cross-platform GUI enhancements (optional)
+tkinter-tooltip==2.1.0
+
+# Advanced Image Processing
+imutils==0.5.4
+
+# Statistical Analysis
+scipy==1.11.2
+statsmodels==0.14.0
+
+# API Integrations
+fastapi==0.103.1  # If you want to create API endpoints
+uvicorn==0.23.2   # ASGI server for FastAPI
+
+# Database (Optional - for storing results)
+sqlite3==3.11  # Built into Python
+sqlalchemy==2.0.20
+
+# Environment Variables
+python-decouple==3.8
+
+# Internationalization (i18n)
+babel==2.12.1
+
+# HTML/CSS Processing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Regular Expressions (Enhanced)
+regex==2023.8.8
+
+# Memory Management
+memory-profiler==0.61.0
+
+# Multi-threading
+threading==3.11  # Built into Python
+
+# Unit Conversion
+pint==0.22
+
+# Error Tracking (Optional)
+sentry-sdk==1.32.0
+
+# Performance Monitoring
+py-spy==0.3.14
+
+# Additional Chart Types
+plotly==5.16.1
+bokeh==3.2.2
+
+# Excel Support (Optional)
+openpyxl==3.1.2
+xlsxwriter==3.1.2
+
+# Command Line Interface Enhancement
+click==8.1.7
+rich==13.5.2  # For beautiful terminal output
+
+# Audio/Video Processing (if needed for multimedia presentations)
+moviepy==1.0.3  # Optional
+
+# Network & HTTP Enhanced
+httpx==0.24.1
+aiohttp==3.8.5
+
+# Caching
+cachetools==5.3.1
+redis==4.6.0  # Optional - if you want Redis caching
+
+# Rate Limiting
+ratelimit==2.2.1
+
+# Process Management
+supervisor==4.2.5  # Optional - for production deployment
+
+# Monitoring & Alerting
+prometheus-client==0.17.1  # Optional
+
+# Configuration Validation
+cerberus==1.3.4
+marshmallow==3.20.1
+
+# Template Engines
+mako==1.2.4
+
+# String Processing
+fuzzywuzzy==0.18.0
+python-levenshtein==0.21.1
+
+# Time Zone Handling
+pytz==2023.3
+tzdata==2023.3
+
+# UUID Generation
+uuid==1.30  # Built into Python
+
+# Random & Secrets
+secrets==3.11  # Built into Python
+
+# Base64 Encoding
+base64==3.11  # Built into Python
+
+# URL Parsing
+urllib3==2.0.4
+
+# File Type Detection
+python-magic==0.4.27
+
+# Compression
+gzip==3.11  # Built into Python
+bz2==3.11   # Built into Python
+
+# XML Processing
+xml==1.3.0  # Built into Python
+
+# CSV Processing
+csv==1.0  # Built into Python
+
+# Pickle/Serialization
+pickle==4.0  # Built into Python
+dill==0.3.7  # Enhanced pickling
+
+# Math & Statistics
+math==3.11      # Built into Python
+statistics==3.11  # Built into Python
+decimal==3.11    # Built into Python
+fractions==3.11  # Built into Python
+
+# Random Number Generation
+random==3.11  # Built into Python
+
+# Operating System Interface
+os==3.11     # Built into Python
+sys==3.11    # Built into Python
+platform==3.11  # Built into Python
+
+# File and Directory Access
+glob==1.0    # Built into Python
+fnmatch==1.0 # Built into Python
+
+# Temporary Files
+tempfile==3.11 # Built into Python
+
+# Internet Data Handling
+urllib==3.11      # Built into Python
+http==1.0         # Built into Python
+email==3.11       # Built into Python
+mimetypes==1.0    # Built into Python
+
+# Data Persistence
+shelve==3.11      # Built into Python
+dbm==1.0          # Built into Python
+
+# Structured Markup Processing Tools
+html==5.0         # Built into Python
+
+# Installation Notes:
+# 1. Install Tesseract OCR separately: https://github.com/tesseract-ocr/tesseract
+# 2. Some packages might require Microsoft Visual C++ Build Tools on Windows
+# 3. For macOS, you might need to install additional dependencies via Homebrew
+# 4. Linux users might need to install python3-dev and other development packages
+#
+# Installation Command:
+# pip install -r requirements.txt
+#
+# For development environment:
+# pip install -r requirements.txt -r requirements-dev.txt
+#
+# Alternative installation with specific Python version:
+# python3.11 -m pip install -r requirements.txt

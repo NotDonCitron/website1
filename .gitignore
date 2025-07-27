@@ -1,0 +1,35 @@
+# Windows system files
+nul
+NUL
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Output files
+output/
+*.png
+!performance_chart_*.png
+
+# Presentation files
+*.pptx
+!Trading_Bot_Final.pptx
+!Trading_Bot_Presentation.pptx

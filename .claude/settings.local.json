@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(python:*)",
+      "Bash(start real_screenshots_presentation_20250726_052754_web.html)",
+      "mcp__byterover-mcp__byterover-retrive-knowledge"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "byterover-mcp"
+  ]
+}
